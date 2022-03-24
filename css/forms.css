@@ -1,0 +1,116 @@
+.register {
+    background-color: var(--color-grisClaro);
+  }
+  
+  .register .container-form-register {
+    display: flex;
+    justify-content: center;
+  }
+  .register .register-form {
+    width: 50%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .register .register-form label {
+    display: block;
+    margin-bottom: 2%;
+    color: var(--color-grisOscuro);
+    font-size: 22px;
+  }
+  
+  /*label de radio button*/
+  .register .register-form .sin-espacio {
+    display: inline;
+    margin: 0;
+  }
+  
+  .register .register-form input {
+    width: 100%;
+    padding: 4%;
+    margin-bottom: 8%;
+    border-radius: 8px;
+    color: var(--color-grisOscuro);
+    font-size: 20px;
+  }
+  
+  .foto:not(textarea) {
+    /*estilo para que el input file quede como los otros inputs*/
+    width: 100%;
+    padding: 4%;
+    margin-bottom: 8%;
+    border-radius: 8px;
+    color: var(--color-grisOscuro);
+    font-size: 20px;
+    background-color: #fff;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+  }
+  /*checkbox*/
+  .register .register-form .radio-chck {
+    width: 10%;
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .register .register-form .chck {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5%;
+  }
+  
+  .register .register-form .pass {
+    margin-top: 6%;
+  }
+  
+  .register .register-form input::placeholder {
+    color: var(--color-grisOscuro);
+    font-size: 20px;
+  }
+  
+  .register .register-form input:focus {
+    box-shadow: 0px 0px 10px rgb(47, 67, 248);
+  }
+  /*inputs con cartel de error*/
+  .register .register-form .con-error {
+    margin-bottom: 0;
+  }
+  /*span de error*/
+  .register .register-form .error {
+    color: red;
+    font-size: 14px;
+  }
+  /*inputs abajo del span*/
+  .register .register-form .espacio {
+    margin-top: 8%;
+  }
+  /*botones*/
+  .register .register-form button {
+    width: 100%;
+    background-color: var(--color-azul);
+    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 26px;
+  }
+  
+  .register .register-form a {
+    color: #fff;
+    font-size: 26px;
+  }
+  
+  .register .register-form button:hover {
+    background-color: #fff;
+    color: var(--color-azul);
+    font-weight: 600;
+  }
+  
+  .register .register-form button a:hover {
+    color: var(--color-azul);
+    font-weight: 600;
+  }
