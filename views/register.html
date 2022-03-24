@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <section class="contenedor-logo-busqueda-cuotas">
+        <div class="logo">
+        <a href="#"><img src="../img/logo-mercado-liebre.svg"></a> 
+        </div>
+    
+        
+    <div class="form_wrapper">
+        <div class="form_container">
+          <div class="title_container">
+    <main class="form">
+    <form action="/action_page.php" method="get">
+        <label for="fname">Nombre:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Apellido</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="start">Fecha de Nacimiento:</label>
+    
+        <input type="date" id="start" name="trip-start"
+               value="1980-07-22"
+               min="1960-01-01" max="2018-12-31">
+               
+            </div>
+
+               <br> <br>
+               <label for="fname">Perfil:</label>
+           <select name="Perfil">
+    
+            <option>Comprador</option>
+            
+            <option>Vendedor</option>
+            
+            </select>
+    
+            <br> <br>
+            <label for="fname">Domicilio:</label>
+        <input type="text" id="fname" name="fname">
+    
+    <br>
+    <label for="interes">Intereses:</label>
+    <br>
+    <input type="checkbox" name="interes" value="1">Electro
+    <br>
+    <input type="checkbox" name="interes" value="2" checked>Moda
+    
+    <br>
+    
+    <input type="checkbox" name="interes" value="3">Hogar
+    <br>
+    <input type="checkbox" name="interes" value="4">Juguetería   
+    <br>
+    <input type="checkbox" name="interes" value="5">Vida Sana
+    <br><br>
+
+    
+    <form action="" name="f1">
+        Contraseña: <input type="password" name="clave1" size="20">
+        <br> 
+                
+        <br>
+    
+        Repite contraseña: <input type="password" name="clave2" size="20">
+        <br>
+        <input type="button" value="Comprobar si son iguales" onClick="comprobarClave()">
+        </form>
+    
+    <br><br>
+    
+        <button type="submit">Enviar</button>
+        <button type="submit" formaction="/action_page2.php">Cancelar</button>
+        <input type="reset" value="Borrar">
+        
+      </form>
+    
+      <a href="home.html">Volver a Home</a>
+    </main>
+    
+</body>
+</html>
+
+
