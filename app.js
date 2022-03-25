@@ -7,9 +7,9 @@ const app = express ();
 const publicPath = path.resolve(__dirname, "./Public");
 app.use (express.static(publicPath));
 
-app.listen (process.env.PORT || 3000, ()=> {
-    console.log ("servidor corriendo en puerto 3000")
-});
+const PORT = process.env.PORT || 4001;
+
+app.listen(PORT, () => console.log("running on port 4001"));
 
 app.get ("/login", (req, res)=>{
     res.sendFile(path.resolve (__dirname, "./Views/home.html"))  });
